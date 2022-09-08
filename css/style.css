@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-image: url(../imges/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-1,.div-3,.div-5,.div-7{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+background: -webkit-radial-gradient(center,circle,green,rgb(227, 204, 143),rgb(0, 255, 200),brown);
+    margin-top: 15px;
+}
+.div-2,.div-4,.div-6,.div-8{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: -webkit-radial-gradient(center,circle,green,red,rgb(0, 238, 255),brown);
+   float: right;
+   top: 0;
+}
+.div-1{
+    animation-name: change1;
+    animation-duration: 2s;
+}
+@keyframes change1 {
+50%{margin-left:1415px ;}
+}
+.div-2{
+    animation-name: change2;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+@keyframes change2 {
+    50%{margin-right: 1415px;}
+    }
+.div-3{
+    margin-top: 100px;
+    animation-name: change3;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+@keyframes change3 {
+    50%{margin-left: 1415px;}
+    }
+.div-4{
+    animation-name: change4;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+@keyframes change4 {
+    50%{margin-right: 1415px;}
+    }
+.div-5{
+    margin-top: 100px;
+    animation-name: change5;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}
+@keyframes change5 {
+    50%{margin-left: 1415px;}
+    }
+.div-6{
+    animation-name:change6;
+    animation-duration: 2s;
+    animation-delay: 10s;
+}
+@keyframes change6 {
+    50%{margin-right: 1415px;}
+    }
+.div-7{
+    margin-top: 100px;
+    animation-name:change7;
+    animation-duration: 2s;
+    animation-delay: 12s;
+}
+@keyframes change7 {
+    50%{margin-left: 1415px;}
+    }
+.div-8{
+    animation-name: change8;
+    animation-duration: 2s;
+   animation-delay: 14s; 
+}
+@keyframes change8 {
+    50%{margin-right: 1415px;}
+    }
